@@ -1,5 +1,6 @@
 def main():
 	print("Este es la version final")
+	print("Se agrego un cambio desde GitHub")
 	msg='''
 	En este programa se observa la tabla de multplicar de 
 	un numero determinado
@@ -10,7 +11,7 @@ def main():
 	x = int (x)
 	print("Ahora la tabla del {}".format(x))
 
-	for e in range(12):
+	for e in range(13):
 		M=x*e
 		print("Operacion {} x {} = {}".format(x,e,M))
 if __name__ =="__main__":
