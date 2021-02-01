@@ -1,7 +1,10 @@
 def main():
-	print("Ahora la tabla del 6")
+	x = input("Ingrese la tabla del numero que desea ")
+	x = int (x)
+	print("Ahora la tabla del {}".format(x))
+
 	for e in range(11):
-		x=6*e
-		print("Operacion 6 x {} = {}".format(e,x))
+		M=x*e
+		print("Operacion {} x {} = {}".format(x,e,M))
 if __name__ =="__main__":
 	main()
