@@ -1,4 +1,10 @@
 def main():
+	msg='''
+	En este programa se observa la tabla de multplicar de 
+	un numero determinado
+	:)
+	'''
+	print(msg)
 	print("Ahora la tabla del 6")
 	for e in range(11):
 		x=6*e
